@@ -16,7 +16,6 @@
 class Solution {
     public TreeNode reverseOddLevels(TreeNode root) {
         //BFS
-        //isolating odd levels
         if(root == null) return null;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
